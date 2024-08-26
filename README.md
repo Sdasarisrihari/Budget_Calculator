@@ -7,7 +7,8 @@ To run this project, you must have a virtual server such as XAMPP installed on y
 
 ### Steps to Run the Project:
 1. **Install XAMPP**:
-   - If you haven't already, download and install XAMPP from [here](https://www.apachefriends.org/index.html).
+   - If you haven't already, download and install XAMPP from here[link](https://www.apachefriends.org/index.html).
+   - Once it downloaded Start the application.
    - Start Apache and MySQL from the XAMPP control panel.
 
 2. **Extract the Project Files**:
@@ -19,11 +20,16 @@ To run this project, you must have a virtual server such as XAMPP installed on y
 4. **Paste the Project Folder**:
    - Navigate to `C:/xampp/htdocs/` and paste the project folder into the `htdocs` directory.
 
-### Connecting the Database:
-5. **Open phpMyAdmin**:
-   - Open your browser and go to the URL: `http://localhost/phpmyadmin/`.
+5. **Open Your Browser**:
+   - Launch your preferred web browser (e.g., Chrome, Firefox).
 
-6. **Create a Database**:
+### Connecting the Database:
+6. **Open phpMyAdmin**:
+    -  Open your browser and go to the URL: 
+   ``` 
+   http://localhost/phpmyadmin/`
+   ````
+7. **Create a Database**:
    - Click on the **Databases** tab.
    - Create a new database with the name `budget_calculator`.
 
@@ -34,6 +40,14 @@ To run this project, you must have a virtual server such as XAMPP installed on y
 
 ### Running the Application:
 8. **Run the Project**:
-   - Open your browser and navigate to `http://localhost/PHP-Budget-Calculator/` to start the application.
+    Open your browser and navigate to 
+    ``` 
+   http://localhost/PHP-Budget-Calculator/
+   ````
+     to start the application.
 
-# Budget_Calculator
+### Troubleshooting:
+  - If the application doesn't load, make sure:
+  - XAMPP’s Apache and MySQL services are running.
+  - The project folder is correctly placed in the `htdocs` directory.
+  - The database was imported successfully.
