@@ -10,6 +10,7 @@ To run this project, you must have a virtual server such as XAMPP installed on y
  **Install XAMPP**:
 
  - If you haven't already, download and install XAMPP from here 
+
     ``` 
    (https://www.apachefriends.org/index.html).
     ````
@@ -40,7 +41,7 @@ To run this project, you must have a virtual server such as XAMPP installed on y
 
    ``` 
    http://localhost/phpmyadmin/`
-`  ```
+   ````
 
  **Create a Database**:
 
